@@ -57,6 +57,34 @@
         </div>
     </div>
 </div>
+<!-- Latest Release -->
+<section class="section-padding bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Latest Release</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="./assets/bien.png" alt="Latest Album Cover" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6">
+                <div class="album-info">
+                    <div class="album-details p-4">
+                        <h3 class="album-title mb-3">NISEME</h3>
+                        <p class="release-date mb-3"><i class="fas fa-calendar-alt me-2"></i>Release Date: 2024</p>
+                        <div class="track-list mb-4">
+                            <h5> BIEN & DJ SEME</h5>
+                        </div>
+                        <div class="streaming-links d-flex gap-3 mb-4">
+                            <a href="#" class="btn btn-dark"><i class="fab fa-spotify me-2"></i>Spotify</a>
+                            <a href="#" class="btn btn-dark"><i class="fab fa-apple me-2"></i>Apple Music</a>
+                            <a href="#" class="btn btn-dark"><i class="fab fa-youtube me-2"></i>YouTube</a>
+                        </div>
+                        <a href="index.php" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Tour Schedule -->
 <section class="section-padding">
@@ -65,13 +93,13 @@
         <div class="tour-date">
             <div class="row align-items-center">
                 <div class="col-md-3">
-                    <h5 class="mb-0">Dec 15, 2023</h5>
+                    <h5 class="mb-0">Jan 28, 2025</h5>
                 </div>
                 <div class="col-md-3">
-                    <p class="mb-0">New York, NY</p>
+                    <p class="mb-0">Nairobi, KE</p>
                 </div>
                 <div class="col-md-3">
-                    <p class="mb-0">Madison Square Garden</p>
+                    <p class="mb-0">Muze Club Westlands</p>
                 </div>
                 <div class="col-md-3">
                     <button class="btn btn-primary">Buy Tickets</button>

@@ -114,3 +114,44 @@ body, html {
     border-radius: 50%;
     background: #007bff;
 }
+.section-padding {
+    padding: 80px 0;
+}
+
+.album-info {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.album-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.release-date {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.track-list li {
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+
+.streaming-links .btn {
+    transition: transform 0.2s ease;
+    margin-right: 25px;
+}
+
+.streaming-links .btn:hover {
+    transform: translateY(-2px);
+}
+
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.02);
+}
