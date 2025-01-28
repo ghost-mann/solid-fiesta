@@ -31,9 +31,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">STORE</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT ME</a>
-                </li>
             </ul>
         </div>
     </div>
@@ -109,13 +106,13 @@
         <div class="tour-date">
             <div class="row align-items-center">
                 <div class="col-md-3">
-                    <h5 class="mb-0">Jan 28, 2025</h5>
+                    <h5 class="mb-0">Jan 30, 2025</h5>
                 </div>
                 <div class="col-md-3">
                     <p class="mb-0">Nairobi, KE</p>
                 </div>
                 <div class="col-md-3">
-                    <p class="mb-0">Muze Club Westlands</p>
+                    <p class="mb-0">Mass House, Ngong Racecourse</p>
                 </div>
                 <div class="col-md-3">
                     <button class="btn btn-primary">Buy Tickets</button>
@@ -125,13 +122,13 @@
         <div class="tour-date">
             <div class="row align-items-center">
                 <div class="col-md-3">
-                    <h5 class="mb-0">Jan 28, 2025</h5>
+                    <h5 class="mb-0">Feb 2, 2025</h5>
                 </div>
                 <div class="col-md-3">
                     <p class="mb-0">Nairobi, KE</p>
                 </div>
                 <div class="col-md-3">
-                    <p class="mb-0">Muze Club Westlands</p>
+                    <p class="mb-0">K1 Club House</p>
                 </div>
                 <div class="col-md-3">
                     <button class="btn btn-primary">Buy Tickets</button>

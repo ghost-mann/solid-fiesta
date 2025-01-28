@@ -38,9 +38,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">STORE</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT ME</a>
-                </li>
             </ul>
         </div>
     </div>
