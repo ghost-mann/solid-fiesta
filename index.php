@@ -36,14 +36,6 @@
     </div>
 </nav>
 
-<!-- Search Bar -->
-<div class="search-container">
-    <div class="position-relative">
-        <input type="text" class="form-control search-input" placeholder="Search Products...">
-        <i class="fa fa-search search-icon"></i>
-    </div>
-</div>
-
 <!-- auto sliding Carousel -->
 <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-inner">

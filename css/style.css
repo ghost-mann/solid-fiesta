@@ -34,34 +34,6 @@ body, html {
     color: #e6e6e6 !important;
 }
 
-/* Search Bar Styles */
-.search-container {
-    position: fixed;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    width: 300px;
-}
-
-.search-input {
-    height: 50px;
-    border-radius: 30px;
-    padding-left: 35px;
-    padding-right: 30px;
-    border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.search-icon {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #6c757d;
-}
-
 /* Carousel Styles */
 .carousel {
     height: 100vh;
