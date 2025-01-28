@@ -13,44 +13,54 @@
 </head>
 <body>
 <!--navbar-->
-<div class="container">
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fullwidth">
-            <a class="navbar-brand" href="index.php">Shop.</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-    </div>
-<!--    search bar-->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="search-container">
-                    <input type="text" class="form-control search-input" placeholder="Search Products...">
-                    <i class="fa fa-search search-icon"></i>
-                </div>
-            </div>
+        <a class="navbar-brand" href="index.php">Bien.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
         </div>
+    </div>
+</nav>
 
+<!-- Search Bar -->
+<div class="search-container">
+    <div class="position-relative">
+        <input type="text" class="form-control search-input" placeholder="Search Products...">
+        <i class="fa fa-search search-icon"></i>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- auto sliding Carousel -->
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image1.jpg" class="d-block" alt="Music Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="image2.jpg" class="d-block" alt="Music Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="image3.jpg" class="d-block" alt="Music Image 3">
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
