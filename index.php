@@ -13,7 +13,7 @@
 </head>
 <body>
 <!--navbar-->
-<!-- Navbar -->
+
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="index.php">Bien.</a>
@@ -23,13 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="index.php">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="about.php">MY LIFE SO FAR</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT ME</a>
                 </li>
             </ul>
         </div>
@@ -40,17 +43,74 @@
 <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="image1.jpg" class="d-block" alt="Music Image 1">
+            <img src="assets/image1.jpg" class="d-block" alt="Music Image 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-2">Artist Name</h1>
+                <p class="lead">Grammy Award-Winning Artist | Producer | Performer</p>
+            </div>
         </div>
         <div class="carousel-item">
-            <img src="image2.jpg" class="d-block" alt="Music Image 2">
+            <img src="assets/image2.jpg" class="d-block" alt="Music Image 2">
         </div>
         <div class="carousel-item">
-            <img src="image3.jpg" class="d-block" alt="Music Image 3">
+            <img src="assets/image3.jpg" class="d-block" alt="Music Image 3">
         </div>
     </div>
 </div>
 
+<!-- Tour Schedule -->
+<section class="section-padding">
+    <div class="container">
+        <h2 class="text-center mb-5">Upcoming Tours</h2>
+        <div class="tour-date">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <h5 class="mb-0">Dec 15, 2023</h5>
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-0">New York, NY</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-0">Madison Square Garden</p>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        <!-- Add more tour dates as needed -->
+    </div>
+</section>
+<!--footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p>Email: contact@artistname.com</p>
+                <p>Management: management@artistname.com</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Social Media</h5>
+                <div class="social-links">
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Newsletter</h5>
+                <form>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

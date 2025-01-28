@@ -1,0 +1,172 @@
+<?php
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Name - Biography</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+<body>
+<!--navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.php">Bien.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">MY LIFE SO FAR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT ME</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <h1 class="display-2">Artist Name</h1>
+        <p class="lead">Grammy Award-Winning Artist | Producer | Performer</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="section-padding bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">About The Artist</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="artist-photo.jpg" alt="Artist Name" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h5>Early Life</h5>
+                        <p>Born in [City], [Artist Name] began their musical journey at age [X]...</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h5>Career Beginnings</h5>
+                        <p>First breakthrough came with the release of [Album/Song]...</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h5>Rise to Fame</h5>
+                        <p>Achieved international recognition with...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section class="section-padding">
+    <div class="container">
+        <h2 class="text-center mb-5">Achievements</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card achievement-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-award fa-3x mb-3 text-primary"></i>
+                        <h4>Grammy Awards</h4>
+                        <p>3 Awards | 12 Nominations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card achievement-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-music fa-3x mb-3 text-primary"></i>
+                        <h4>Platinum Records</h4>
+                        <p>15 Platinum Albums</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card achievement-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-ticket fa-3x mb-3 text-primary"></i>
+                        <h4>World Tours</h4>
+                        <p>5 Global Tours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Discography Section -->
+<section class="section-padding bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Discography</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <img src="album1.jpg" alt="Album 1" class="album-cover mb-3">
+                    <h4>Album Title (2023)</h4>
+                    <p>Including hit singles: [Song 1], [Song 2]</p>
+                </div>
+            </div>
+            <!-- Add more albums as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p>Email: contact@artistname.com</p>
+                <p>Management: management@artistname.com</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Social Media</h5>
+                <div class="social-links">
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Newsletter</h5>
+                <form>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
