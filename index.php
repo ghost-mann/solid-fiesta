@@ -29,7 +29,7 @@
                     <a class="nav-link" href="about.php">MY LIFE SO FAR</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PRODUCTS</a>
+                    <a class="nav-link" href="#">STORE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">CONTACT ME</a>
@@ -43,17 +43,17 @@
 <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/image1.jpg" class="d-block" alt="Music Image 1">
-            <div class="carousel-caption d-none d-md-block">
-                <h1 class="display-2">Artist Name</h1>
-                <p class="lead">Grammy Award-Winning Artist | Producer | Performer</p>
-            </div>
+            <img src="assets/image4.jpg" class="d-block" alt="Music Image 1">
+<!--            <div class="carousel-caption d-none d-md-block">-->
+<!--                <h1 class="display-2">Artist Name</h1>-->
+<!--                <p class="lead">Grammy Award-Winning Artist | Producer | Performer</p>-->
+<!--            </div>-->
         </div>
         <div class="carousel-item">
-            <img src="assets/image2.jpg" class="d-block" alt="Music Image 2">
+            <img src="assets/image5.jpg" class="d-block" alt="Music Image 2">
         </div>
         <div class="carousel-item">
-            <img src="assets/image3.jpg" class="d-block" alt="Music Image 3">
+            <img src="assets/image6.jpg" class="d-block" alt="Music Image 3">
         </div>
     </div>
 </div>
@@ -106,6 +106,38 @@
                 </div>
             </div>
         </div>
+        <div class="tour-date">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <h5 class="mb-0">Jan 28, 2025</h5>
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-0">Nairobi, KE</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-0">Muze Club Westlands</p>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="tour-date">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <h5 class="mb-0">Jan 28, 2025</h5>
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-0">Nairobi, KE</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-0">Muze Club Westlands</p>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
         <!-- Add more tour dates as needed -->
     </div>
 </section>
@@ -115,8 +147,8 @@
         <div class="row">
             <div class="col-md-4">
                 <h5>Contact</h5>
-                <p>Email: contact@artistname.com</p>
-                <p>Management: management@artistname.com</p>
+                <p>Email: contact@bien.com</p>
+                <p>Management: management@bien.com</p>
             </div>
             <div class="col-md-4">
                 <h5>Social Media</h5>
